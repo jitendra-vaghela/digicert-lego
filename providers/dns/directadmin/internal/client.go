@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/providers/dns/internal/errutils"
 	querystring "github.com/google/go-querystring/query"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/internal/errutils"
 )
 
 // Client the Direct Admin API client.

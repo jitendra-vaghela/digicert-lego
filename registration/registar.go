@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/go-acme/lego/v4/acme"
-	"github.com/go-acme/lego/v4/acme/api"
-	"github.com/go-acme/lego/v4/log"
+	"github.com/jitendra-vaghela/digicert-lego/v4/acme"
+	"github.com/jitendra-vaghela/digicert-lego/v4/acme/api"
+	"github.com/jitendra-vaghela/digicert-lego/v4/log"
 )
 
 const mailTo = "mailto:"

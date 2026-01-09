@@ -9,16 +9,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge"
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/platform/wait"
-	"github.com/go-acme/lego/v4/providers/dns/internal/ptr"
 	hwauthbasic "github.com/huaweicloud/huaweicloud-sdk-go-v3/core/auth/basic"
 	hwconfig "github.com/huaweicloud/huaweicloud-sdk-go-v3/core/config"
 	hwdns "github.com/huaweicloud/huaweicloud-sdk-go-v3/services/dns/v2"
 	hwmodel "github.com/huaweicloud/huaweicloud-sdk-go-v3/services/dns/v2/model"
 	hwregion "github.com/huaweicloud/huaweicloud-sdk-go-v3/services/dns/v2/region"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/wait"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/internal/ptr"
 )
 
 // Environment variables names.

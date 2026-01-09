@@ -10,7 +10,7 @@ import (
 	awsconfig "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/route53"
-	"github.com/go-acme/lego/v4/platform/tester"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/tester"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

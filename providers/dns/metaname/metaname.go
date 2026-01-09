@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge"
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
 	"github.com/nzdjb/go-metaname"
 )
 

@@ -17,7 +17,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-acme/lego/v4/internal/dns/descriptors"
+	"github.com/jitendra-vaghela/digicert-lego/v4/internal/dns/descriptors"
 )
 
 //go:embed templates

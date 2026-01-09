@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/acme"
-	"github.com/go-acme/lego/v4/acme/api"
-	"github.com/go-acme/lego/v4/challenge"
-	"github.com/go-acme/lego/v4/log"
-	"github.com/go-acme/lego/v4/platform/wait"
+	"github.com/jitendra-vaghela/digicert-lego/v4/acme"
+	"github.com/jitendra-vaghela/digicert-lego/v4/acme/api"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge"
+	"github.com/jitendra-vaghela/digicert-lego/v4/log"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/wait"
 	"github.com/miekg/dns"
 )
 

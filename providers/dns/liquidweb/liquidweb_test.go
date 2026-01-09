@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v4/platform/tester"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/tester"
 	"github.com/liquidweb/liquidweb-go/network"
 	"github.com/stretchr/testify/require"
 )

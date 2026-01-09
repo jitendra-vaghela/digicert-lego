@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/internal/useragent"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/internal/useragent"
 	selectelapi "github.com/selectel/domains-go/pkg/v2"
 	"github.com/selectel/go-selvpcclient/v3/selvpcclient"
 	"golang.org/x/net/idna"

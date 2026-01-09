@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v4/certificate"
-	"github.com/go-acme/lego/v4/lego"
+	"github.com/jitendra-vaghela/digicert-lego/v4/certificate"
+	"github.com/jitendra-vaghela/digicert-lego/v4/lego"
 	"github.com/urfave/cli/v2"
 	"software.sslmate.com/src/go-pkcs12"
 )

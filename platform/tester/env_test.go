@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-acme/lego/v4/platform/tester"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/tester"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-acme/lego/v4/acme"
+	"github.com/jitendra-vaghela/digicert-lego/v4/acme"
 )
 
 // OrderOptions used to create an order (optional).

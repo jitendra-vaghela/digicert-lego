@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/go-acme/lego/v4/acme"
-	"github.com/go-acme/lego/v4/log"
+	"github.com/jitendra-vaghela/digicert-lego/v4/acme"
+	"github.com/jitendra-vaghela/digicert-lego/v4/log"
 	"github.com/urfave/cli/v2"
 )
 

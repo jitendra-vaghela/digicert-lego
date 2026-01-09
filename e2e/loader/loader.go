@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v4/platform/wait"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/wait"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-acme/lego/v4/certcrypto"
+	"github.com/jitendra-vaghela/digicert-lego/v4/certcrypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

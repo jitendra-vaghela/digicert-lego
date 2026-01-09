@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/go-acme/lego/v4/cmd"
-	"github.com/go-acme/lego/v4/log"
+	"github.com/jitendra-vaghela/digicert-lego/v4/cmd"
+	"github.com/jitendra-vaghela/digicert-lego/v4/log"
 	"github.com/urfave/cli/v2"
 )
 

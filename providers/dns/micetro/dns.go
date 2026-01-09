@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
 )
 
 const (
 	envNamespace = "MICETRO_"
 
-	envEndpoint  = envNamespace + "ENDPOINT"   // e.g., https://micetro.example/mmws/api/v2
+	envEndpoint  = envNamespace + "ENDPOINT" // e.g., https://micetro.example/mmws/api/v2
 	envAPIKey    = envNamespace + "API_KEY"
 	envUsername  = envNamespace + "USERNAME"
 	envPassword  = envNamespace + "PASSWORD"

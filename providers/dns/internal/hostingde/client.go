@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/go-acme/lego/v4/providers/dns/internal/errutils"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/internal/errutils"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge"
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/vkcloud/internal"
 	"github.com/gophercloud/gophercloud"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/vkcloud/internal"
 )
 
 // Environment variables names.

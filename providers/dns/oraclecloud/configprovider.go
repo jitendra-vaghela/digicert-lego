@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-acme/lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
 	"github.com/oracle/oci-go-sdk/v65/common"
 )
 

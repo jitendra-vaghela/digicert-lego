@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/log"
+	"github.com/jitendra-vaghela/digicert-lego/v4/log"
 )
 
 // Get environment variables.

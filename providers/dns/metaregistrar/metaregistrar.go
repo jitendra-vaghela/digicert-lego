@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/metaregistrar/internal"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/platform/config/env"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/metaregistrar/internal"
 )
 
 // Environment variables names.

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
+	"github.com/jitendra-vaghela/digicert-lego/v4/challenge/dns01"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

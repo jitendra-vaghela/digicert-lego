@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/certificate"
+	"github.com/jitendra-vaghela/digicert-lego/v4/certificate"
 )
 
 const (

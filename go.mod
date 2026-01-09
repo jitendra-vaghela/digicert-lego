@@ -1,4 +1,4 @@
-module github.com/go-acme/lego/v4
+module github.com/jitendra-vaghela/digicert-lego/v4
 
 go 1.23.0
 
