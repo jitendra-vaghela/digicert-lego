@@ -94,6 +94,7 @@ import (
 	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/manageengine"
 	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/metaname"
 	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/metaregistrar"
+	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/micetro"
 	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/mijnhost"
 	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/mittwald"
 	"github.com/jitendra-vaghela/digicert-lego/v4/providers/dns/myaddr"
@@ -340,6 +341,8 @@ func NewDNSChallengeProviderByName(name string) (challenge.Provider, error) {
 		return metaname.NewDNSProvider()
 	case "metaregistrar":
 		return metaregistrar.NewDNSProvider()
+	case "micetro":
+		return micetro.NewDNSProvider()
 	case "mijnhost":
 		return mijnhost.NewDNSProvider()
 	case "mittwald":
